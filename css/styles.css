@@ -9,7 +9,14 @@ a   {
     text-decoration: none;
     color: white;
 }
-
+h1  {
+    font-size: 60px;
+    color: #2f89fc;
+    line-height: 1.2;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 25px;
+}
 a i{
     padding-right: 10px;
 }
@@ -24,6 +31,8 @@ li  {
 .main__base-text    {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    color: white;
+    text-align: center;
     /* font-weight: 400; */
 }
 
@@ -74,6 +83,12 @@ footer  {
     /* se visualizara en filas */
     /* flex-flow: column nowrap; */
     flex-direction: column;
+    align-items: center;
+    /* align-content: center; */
+
+    justify-content: center;
+    padding: 0 10px;
+
     height: 480px;
 }
 
@@ -81,6 +96,10 @@ footer  {
     background-color: rgb(46, 179, 167);
     height: 480px;
     
+}
+
+.main__mail {
+    display: flex;
 }
 
 .footer__links  {
