@@ -2,18 +2,34 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a   {
     text-decoration: none;
+    color: white;
+}
+
+a i{
+    padding-right: 10px;
 }
 
 li  {
     list-style: none;
 }
 
+.ico-rrss{
+    padding-right: 10px;
+}
+.main__base-text    {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    /* font-weight: 400; */
+}
+
 header  {
-    background-color:darkgoldenrod
+    background-color:darkgoldenrod;
+    padding:0px 5px;
 }
 
 main{
@@ -27,12 +43,37 @@ footer  {
 
 .header__menu{
     background-color: brown;
-    height: 280px;
+    height: 190px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content:space-around;
+    font-size: 20px;
 
 }
 
+.header__navbar a{
+    padding: 10px 10px;
+    display: flex;
+}
+
+.header__navbar a:hover{
+    color: blueviolet;
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 25px;
+}
 .main__jumbotron{
-    background-color: rgb(50, 196, 45);
+    background: url(../images/02-pancakes.jpg);
+    /* editando el estilo de la imagen para centrarla
+    y que no se expanda, solo en su contenedor */
+    background-position: center;
+    background-attachment:center;
+    background-size: cover;
+    display: flex;
+    /* se visualizara en filas */
+    /* flex-flow: column nowrap; */
+    flex-direction: column;
     height: 480px;
 }
 
@@ -42,6 +83,9 @@ footer  {
     
 }
 
+.footer__links  {
+    display: flex;
+}
 .footer__rrss   {
     background-color: rgb(86, 110, 160);
     /* height: 480px; */
@@ -51,6 +95,7 @@ footer  {
 .footer__navbar {
     background-color: rgb(53, 70, 107);
     /* height: 480px; */
+    display: flex;
     
 }
 
@@ -61,6 +106,7 @@ footer  {
 
 .footer__copyright  {
     background-color: rgb(252, 255, 96);
+    text-align: center;
 
 }
 /* 
