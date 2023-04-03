@@ -12,18 +12,58 @@ li  {
     list-style: none;
 }
 
-/* 
-header{
+header  {
+    background-color:darkgoldenrod
+}
+
+main{
+    background-color: coral;
+}
+
+footer  {
+    background-color: darkolivegreen;
+}
+
+
+.header__menu{
     background-color: brown;
-    height: 60px;
+    height: 280px;
 
 }
 
-header__menu{
+.main__jumbotron{
+    background-color: rgb(50, 196, 45);
+    height: 480px;
+}
+
+.main__us   {
+    background-color: rgb(46, 179, 167);
+    height: 480px;
     
-
 }
 
+.footer__rrss   {
+    background-color: rgb(86, 110, 160);
+    /* height: 480px; */
+    
+}
+
+.footer__navbar {
+    background-color: rgb(53, 70, 107);
+    /* height: 480px; */
+    
+}
+
+.footer__nav    {
+    background-color: rgb(142, 216, 198);
+    /* height: 480px; */
+}
+
+.footer__copyright  {
+    background-color: rgb(252, 255, 96);
+
+}
+/* 
 header__logo{
 
 }
