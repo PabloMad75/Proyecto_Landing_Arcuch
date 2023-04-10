@@ -47,6 +47,7 @@
             <article class="main__mail">
                 <input type="email" name="correo" id="" placeholder="Ingresa tu correo">
                 <button type="submit">Enviar</button>
+                <p><label>Nombre: <input type="text" name="nombre"></label></p>
             </article>
 
         </section>
@@ -161,20 +162,20 @@
                 <div>
                     <div class="">
                         <label>Nombre:</label>
-                        <input type="text" placeholder="Ingresa tu nombre">
+                        <input type="text" placeholder="Ingresa tu nombre" required>
                     </div>
                 </div>
                 <div class="">
                     <div class="">
                         <label>Email</label>
-                        <input type="email" placeholder="Ingresa tu correo electrónico">
+                        <input type="email" placeholder="Ingresa tu correo electrónico" required>
                     </div>
                 </div>
                 <div class="">
                     <div class="">
                         <label class="text-black">Mensaje</label>
                         <textarea name="message" cols="30" rows="7" class=""
-                            placeholder="Escríbenos tu mensaje..."></textarea>
+                            placeholder="Escríbenos tu mensaje..." required></textarea>
                     </div>
                 </div>
                 <div class="">
@@ -199,36 +200,42 @@
             <section class="footer__navbar">
                 <div class="footer__nav">
                     <h3>Conócenos</h3>
-                    <a href="#">Nosotros</a>
-                    <a href="#">Sucursales</a>
-                    <a href="#">Cobertura de Despacho</a>
-                    <a href="#">Preguntas Frecuentes</a>
-                    <a href="#">Trabaja con nosotros</a>
+                    <ul>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Sucursales</a></li>
+                        <li><a href="#">Cobertura de Despacho</a></li>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Trabaja con nosotros</a></li>
+                    </ul>
                 </div>
                 <div class="footer__nav">
                     <h3>Categorías</h3>
-                    <a href="#">Pastelería</a>
-                    <a href="#">Banquetería</a>
-                    <a href="#">Catering</a>
-                    <a href="#">Regalos</a>
+                    <ul>
+                        <li><a href="#">Pastelería</a></li>
+                        <li><a href="#">Banquetería</a></li>
+                        <li><a href="#">Catering</a></li>
+                        <li><a href="#">Regalos</a></li>
+                    </ul>
                 </div>
                 <div class="footer__nav">
                     <h3>Legal</h3>
-                    <a href="#">Términos y condiciones</a>
-                    <a href="#">Política de cambio</a>
-                    <a href="#">Política de privacidad</a>
+                    <ul>
+                        <li><a href="#">Términos y condiciones</a></li>
+                        <li><a href="#">Política de cambio</a></li>
+                        <li><a href="#">Política de privacidad</a></li>
+                    </ul>
                 </div>
-
             </section>
         </article>
         <article class="footer__copyright">
             <p>
-                Copyright ©2023, Todos los derechos reservados. By PabloMad Design.
+                Copyright ©2023, Todos los derechos reservados.
             </p>
+            <span> By PabloMad Design.</span>
         </article>
 
     </footer>
     <script src="./js/fontawesome/all.min.js"></script>
 </body>
-
+<!-- https://sensacionweb.com/como-crear-un-boton-con-html-y-css/ -->
 </html>

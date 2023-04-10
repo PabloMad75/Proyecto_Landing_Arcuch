@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    /* border-radius:10px; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -38,7 +39,7 @@ li  {
 
 header  {
     background-color:darkgoldenrod;
-    padding:0px 5px;
+    padding:0px 0px;
 }
 
 main{
@@ -100,10 +101,22 @@ footer  {
 
 .main__mail {
     display: flex;
+    padding-top: 25px;
+}
+
+.main__register-client  {
+    background-color: burlywood;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+    padding: 10px;
 }
 
 .footer__links  {
-    display: flex;
+    /* display: flex; */
 }
 .footer__rrss   {
     background-color: rgb(86, 110, 160);
@@ -115,18 +128,18 @@ footer  {
     background-color: rgb(53, 70, 107);
     /* height: 480px; */
     display: flex;
+    justify-content: space-evenly;
     
 }
 
 .footer__nav    {
-    background-color: rgb(142, 216, 198);
-    /* height: 480px; */
+    /* background-color: rgb(142, 216, 198);
+    height: 480px; */
 }
 
 .footer__copyright  {
     background-color: rgb(252, 255, 96);
     text-align: center;
-
 }
 /* 
 header__logo{
