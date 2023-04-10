@@ -108,6 +108,12 @@ footer  {
     background-color: burlywood;
 }
 
+.main__form-register{
+    background-color: cadetblue;
+    width: 80%;
+
+}
+
 form label{
 	width:72px;
 	font-weight:bold;
