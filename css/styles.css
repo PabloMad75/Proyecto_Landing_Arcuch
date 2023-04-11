@@ -10,13 +10,22 @@ a   {
     text-decoration: none;
     color: white;
 }
-h1  {
+.titulos  {
     font-size: 60px;
     color: #2f89fc;
     line-height: 1.2;
     font-weight: 900;
     text-align: center;
     padding-bottom: 25px;
+}
+.subtitulos  {
+    font-size: 30px;
+    color: #19376D;
+    line-height: 1.2;
+    font-weight: 4500;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 20px;
 }
 a i{
     padding-right: 10px;
@@ -37,6 +46,12 @@ li  {
     /* font-weight: 400; */
 }
 
+.justify{
+    text-align: justify;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
 header  {
     background-color:darkgoldenrod;
     padding:0px 0px;
@@ -48,6 +63,7 @@ main{
 
 footer  {
     background-color: darkolivegreen;
+
 }
 
 
@@ -95,8 +111,23 @@ footer  {
 
 .main__us   {
     background-color: rgb(46, 179, 167);
-    height: 480px;
+    /* height: 480px; */
     
+}
+
+.main_img  {
+    display: flex;
+    justify-content:space-evenly;
+    padding-bottom: 15px;
+}
+
+.main_products {
+    display: flex;
+}
+
+.main__product   {
+    display: flex;
+
 }
 
 .main__mail {
@@ -105,12 +136,12 @@ footer  {
 }
 
 .main__register-client  {
-    background-color: burlywood;
+    background-color: #6ECCAF;
 }
 
 .main__form-register{
-    background-color: cadetblue;
-    width: 80%;
+    /* background-color: cadetblue; */
+    /* width: 80%; */
 
 }
 
@@ -123,11 +154,11 @@ form label{
 
 .footer__links  {
     /* display: flex; */
+        padding: 10px 0px;
 }
 .footer__rrss   {
     background-color: rgb(86, 110, 160);
     /* height: 480px; */
-    
 }
 
 .footer__navbar {
@@ -135,7 +166,6 @@ form label{
     /* height: 480px; */
     display: flex;
     justify-content: space-evenly;
-    
 }
 
 .footer__nav    {
@@ -147,29 +177,3 @@ form label{
     background-color: rgb(252, 255, 96);
     text-align: center;
 }
-/* 
-header__logo{
-
-}
-
-header__navbar{
-
-} 
-
-main__jumbotron{
-
-}
-
-main_products {
-
-}
-
-main__register-client{
-
-}
-
-
-
-
-
-*/
