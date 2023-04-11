@@ -24,7 +24,7 @@ a   {
     line-height: 1.2;
     font-weight: 4500;
     text-align: left;
-    padding-top: 5px;
+    padding-top: 20px;
     padding-left: 20px;
 }
 a i{
@@ -62,7 +62,7 @@ main{
 }
 
 footer  {
-    background-color: darkolivegreen;
+    background-color: #009FBD;
 
 }
 
@@ -112,7 +112,6 @@ footer  {
 .main__us   {
     background-color: rgb(46, 179, 167);
     /* height: 480px; */
-    
 }
 
 .main_img  {
@@ -123,11 +122,7 @@ footer  {
 
 .main_products {
     display: flex;
-}
-
-.main__product   {
-    display: flex;
-
+    flex-direction: column;
 }
 
 .main__mail {
@@ -140,8 +135,19 @@ footer  {
 }
 
 .main__form-register{
-    /* background-color: cadetblue; */
-    /* width: 80%; */
+        /* Centrar el formulario en la página */
+        background-color:  #AEBDCA;
+        margin: 0 auto;
+        width: 400px;
+        /* Esquema del formulario */
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+        padding-bottom: 20px;
+}
+
+input   {
+    width: 100%;
 
 }
 
@@ -150,6 +156,7 @@ form label{
 	font-weight:bold;
 	display:inline-block;
     padding: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer__links  {
@@ -157,13 +164,14 @@ form label{
         padding: 10px 0px;
 }
 .footer__rrss   {
-    background-color: rgb(86, 110, 160);
-    /* height: 480px; */
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
 }
 
 .footer__navbar {
-    background-color: rgb(53, 70, 107);
-    /* height: 480px; */
+    /* background-color: rgb(53, 70, 107);
+    height: 480px; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -177,3 +185,27 @@ form label{
     background-color: rgb(252, 255, 96);
     text-align: center;
 }
+/* 
+header__logo{
+
+}
+
+header__navbar{
+
+} 
+
+main__jumbotron{
+
+}
+
+
+
+main__register-client{
+
+}
+
+
+
+
+
+*/
