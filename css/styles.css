@@ -125,8 +125,10 @@ footer  {
 
 .main_img  {
     display: flex;
+    flex-flow: column;
     justify-content:space-evenly;
     padding-bottom: 15px;
+    padding: 0px 20px 15px;
 }
 
 .main_products {
