@@ -126,7 +126,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 }
 
 .main__us   {
-    background-color: rgb(46, 179, 167);
+    background-color: #88BEF5;;
     /* height: 480px; */
 }
 
@@ -141,6 +141,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 .main_products {
     display: flex;
     flex-direction: column;
+    background-color: #F469A9;
 }
 
 .main__product   {
@@ -170,7 +171,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 }
 
 .main__register-client  {
-    background-color: #6ECCAF;
+    background-color: #46C2CB;
     padding-bottom: 20px;
 }
 
@@ -181,7 +182,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
         width: 530px;
         /* Esquema del formulario */
         padding: 1em;
-        border: 1px solid #CCC;
+        /* border: 1px solid #CCC; */
         border-radius: 1em;
         padding-bottom: 20px;
 }
@@ -200,6 +201,7 @@ form input, form textarea{
 display: block;
 padding: 10px;
 width: 100%;
+border: none;
 }
 
 input, textarea {
@@ -208,8 +210,12 @@ input, textarea {
   cursor: pointer;
 }
 
+input[type=submit]{
+    border-radius: 25px;
+}
+
 input[type=submit]:hover{
-    background-color: rgb(252, 255, 96);
+    background-color: #FFBF9B;
     padding: 10px;
     border-radius: 25px;
 }
