@@ -2,8 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* border-radius:10px; 
-    font-family: Arial, Helvetica, sans-serif;*/
     font-family: 'Poppins', sans-serif;
 }
 
@@ -11,6 +9,7 @@ a   {
     text-decoration: none;
     color: white;
 }
+
 .titulos  {
     font-size: 60px;
     color: #2f89fc;
@@ -19,6 +18,7 @@ a   {
     text-align: center;
     padding-bottom: 25px;
 }
+
 .subtitulos  {
     font-size: 30px;
     color: #19376D;
@@ -37,7 +37,7 @@ a   {
     text-align: left;
 }
 
-a i{
+a i {
     padding-right: 10px;
 }
 
@@ -45,9 +45,10 @@ li  {
     list-style: none;
 }
 
-.ico-rrss{
+.ico-rrss   {
     padding-right: 10px;
 }
+
 .main__base-text    {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -67,7 +68,7 @@ header  {
     padding:0px 0px;
 }
 
-main{
+main    {
     background-color: coral;
 }
 
@@ -76,8 +77,7 @@ footer  {
 
 }
 
-
-.header__menu{
+.header__menu   {
     background-color: brown;
     height: 230px;
     display: flex;
@@ -85,7 +85,6 @@ footer  {
     align-items: center;
     justify-content:space-around;
     font-size: 20px;
-
 }
 
 svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
@@ -94,18 +93,19 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     padding-top: 4px;
 }
 
-.header__navbar a{
+.header__navbar a   {
     padding: 10px 10px;
     display: flex;
 }
 
-.header__navbar a:hover{
+.header__navbar a:hover {
     color: blueviolet;
     background-color: aliceblue;
     padding: 10px;
     border-radius: 25px;
 }
-.main__jumbotron{
+
+.main__jumbotron    {
     background: url(../images/02-pancakes.jpg);
     /* editando el estilo de la imagen para centrarla
     y que no se expanda, solo en su contenedor */
@@ -118,10 +118,8 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     flex-direction: column;
     align-items: center;
     /* align-content: center; */
-
     justify-content: center;
     padding: 0 10px;
-
     height: 480px;
 }
 
@@ -175,7 +173,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     padding-bottom: 20px;
 }
 
-.main__form-register{
+.main__form-register    {
         /* Centrar el formulario en la página */
         background-color:  #AEBDCA;
         margin: 0 auto;
@@ -197,11 +195,11 @@ textarea    {
     margin: 10px 0;
 }
 
-form input, form textarea{
-display: block;
-padding: 10px;
-width: 100%;
-border: none;
+form input, form textarea   {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border: none;
 }
 
 input, textarea {
@@ -210,24 +208,24 @@ input, textarea {
   cursor: pointer;
 }
 
-input[type=submit]{
+input[type=submit]  {
     border-radius: 25px;
 }
 
-input[type=submit]:hover{
+input[type=submit]:hover    {
     background-color: #FFBF9B;
     padding: 10px;
     border-radius: 25px;
 }
 
-h4{
+h4  {
     font-size: small;
     text-transform: uppercase;
     color: antiquewhite;
     padding-bottom: 5px;
 }
 
-form label{
+form label  {
 	font-weight:lighter;
 	/* display:inline-block; 
     padding: 30px;*/
@@ -266,27 +264,3 @@ form label{
     text-align: center;
     padding: 10px;
 }
-/* 
-header__logo{
-
-}
-
-header__navbar{
-
-} 
-
-main__jumbotron{
-
-}
-
-
-
-main__register-client{
-
-}
-
-
-
-
-
-*/
