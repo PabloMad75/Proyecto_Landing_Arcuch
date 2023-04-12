@@ -286,13 +286,23 @@ form label  {
     } */
 }
 
-/* Medium devices (landscape tablets, 992px and up) */
+/* Medium devices (landscape tablets, 992px and up) .main__form-register */
 @media (min-width: 992px) {
     .header__menu   {
         height: auto;
     }
     .header__navbar {
         display: flex;
+    }
+    .main__form-register    {
+        width: 950px;
+    }
+
+    .main__mail {
+        display: flex;
+        flex-flow: row;
+        width: 80%;
+        padding-top: 25px;
     }
 
 }
