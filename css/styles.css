@@ -64,21 +64,11 @@ li  {
 .justify{
     text-align: justify;
     font-size: 18px;
-    padding: 5px 20px;
-}
-
-header  {
-    background-color:darkgoldenrod;
-    padding:0px 0px;
-}
-
-main    {
-    /* padding: 40px; */
+    padding: 5px 20px 20px;
 }
 
 footer  {
     background-color: #009FBD;
-
 }
 
 .header__menu   {
@@ -111,17 +101,12 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 
 .main__jumbotron    {
     background: url(../images/02-pancakes.jpg);
-    /* editando el estilo de la imagen para centrarla
-    y que no se expanda, solo en su contenedor */
     background-position: center;
     background-attachment:center;
     background-size: cover;
     display: flex;
-    /* se visualizara en filas */
-    /* flex-flow: column nowrap; */
     flex-direction: column;
     align-items: center;
-    /* align-content: center; */
     justify-content: center;
     padding: 0 20px;
     height: 580px;
@@ -178,19 +163,15 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 }
 
 .main__form-register    {
-        /* Centrar el formulario en la página */
         background-color:  #AEBDCA;
         margin: 0 auto;
         width: 440px;
-        /* Esquema del formulario */
         padding: 1em;
-        /* border: 1px solid #CCC; */
         border-radius: 1em;
         padding-bottom: 20px;
 }
 
 input   {
-    /* width: 100%; */
     margin: 10px 0;
 }
 
@@ -304,10 +285,6 @@ form label  {
     h4  {
         font-size: medium;
     }
-
-    /* .footer__copyright  {
-        font-size: medium;
-    } */
 }
 
 /* Medium devices (landscape tablets, 992px and up) .main__form-register */
@@ -323,11 +300,9 @@ form label  {
         display: flex;
     }
 
-
     .main__form-register    {
         width: 950px;
     }
-
 
     .main__mail {
         display: flex;
@@ -345,16 +320,12 @@ form label  {
     .main__text{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     .text-add   {
         display: flex;
-        font-size: inherit;
+        font-size: 18px;
         text-align: inherit;
     }
-    
-
 }
-
-
-
