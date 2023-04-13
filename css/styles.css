@@ -177,7 +177,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
         /* Centrar el formulario en la página */
         background-color:  #AEBDCA;
         margin: 0 auto;
-        width: 530px;
+        width: 440px;
         /* Esquema del formulario */
         padding: 1em;
         /* border: 1px solid #CCC; */
