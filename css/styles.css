@@ -247,7 +247,8 @@ form label  {
 }
 
 .footer__copyright  {
-    background-color: rgb(252, 255, 96);
+    background-color: brown;
+    color: white;
     text-align: center;
     padding: 10px;
 }
