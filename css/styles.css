@@ -315,7 +315,7 @@ form label  {
     .main_img {
         /* padding-bottom: 15px; */
         padding: 20px;
-        width: auto;
+        height: auto;
     }
 
     .main__text{
