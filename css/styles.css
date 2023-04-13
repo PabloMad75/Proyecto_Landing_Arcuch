@@ -57,6 +57,10 @@ li  {
     /* font-weight: 400; */
 }
 
+.text-add   {
+    display: none;
+}
+
 .justify{
     text-align: justify;
     font-size: 18px;
@@ -69,7 +73,7 @@ header  {
 }
 
 main    {
-    background-color: coral;
+    /* padding: 40px; */
 }
 
 footer  {
@@ -119,8 +123,8 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     align-items: center;
     /* align-content: center; */
     justify-content: center;
-    padding: 0 10px;
-    height: 480px;
+    padding: 0 20px;
+    height: 580px;
 }
 
 .main__us   {
@@ -268,10 +272,29 @@ form label  {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-        .main__form-register    {
+
+    .main__jumbotron    {
+        padding: 0 25px;
+        /* height: 480px; */
+    }
+
+    .main_products  {
+        padding: 0 25px;
+    }
+    
+    .main__us    {
+        padding: 0 25px;
+    }
+
+    .main__form-register    {
             width: 700px;
     }
 
+    .main__register-client  {
+        padding: 0 25px;
+        padding-bottom: 20px;
+    }
+    
     .footer__nav ul li a {
         font-size:medium;
         cursor: pointer;
@@ -294,16 +317,41 @@ form label  {
     .header__navbar {
         display: flex;
     }
+
+    .main__us    {
+        display: flex;
+    }
+
+
     .main__form-register    {
         width: 950px;
     }
 
+
     .main__mail {
         display: flex;
-        flex-flow: row;
-        width: 80%;
+        flex-flow: column;
+        width: 50%;
         padding-top: 25px;
     }
+
+    .main_img {
+        /* padding-bottom: 15px; */
+        padding: 20px;
+        width: auto;
+    }
+
+    .main__text{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-add   {
+        display: flex;
+        font-size: inherit;
+        text-align: inherit;
+    }
+    
 
 }
 
