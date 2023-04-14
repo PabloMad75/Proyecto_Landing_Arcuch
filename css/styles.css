@@ -114,7 +114,6 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 
 .main__us   {
     background-color: #88BEF5;;
-    /* height: 480px; */
 }
 
 .main_img  {
@@ -134,15 +133,16 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 .main__product   {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: space-between; */
     text-align: justify;
+    padding-bottom: 30px;
+
     /* padding: 15px; */
 }
 
 .main__product img {
     max-width: 100%; /* Asegura que las imágenes dentro de las tarjetas no sobrepasen el ancho de la tarjeta */
     height: auto; /* Ajusta automáticamente la altura de las imágenes para que no se deformen */
+    border-radius: 10px; /* Agrega una esquina redondeada a cada tarjeta */
   }
 
 .container_products {
@@ -150,6 +150,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     justify-content: space-between; /* Alinea las tarjetas de forma que se separen entre ellas */
     flex-wrap: wrap; /* Envuelve las tarjetas si no caben todas en una sola fila */
     padding: 0 20px;
+    padding-bottom: 20px;
 }
 
 .fecha-publicacion {
@@ -161,6 +162,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 .article-info   {
     color:white;
     font-family: inherit;
+    padding: 0 10px;
 }
 
 .main__mail {
@@ -226,8 +228,6 @@ h4  {
 
 form label  {
 	font-weight:lighter;
-	/* display:inline-block; 
-    padding: 30px;*/
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -248,8 +248,6 @@ form label  {
 }
 
 .footer__navbar {
-    /* background-color: rgb(53, 70, 107);
-    height: 480px; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -275,7 +273,6 @@ form label  {
 
     .main__jumbotron    {
         padding: 0 25px;
-        /* height: 480px; */
     }
 
     .main_products  {
@@ -330,7 +327,6 @@ form label  {
     }
 
     .main_img {
-        /* padding-bottom: 15px; */
         padding: 20px;
         height: auto;
     }
@@ -356,19 +352,15 @@ form label  {
         display: flex;
         flex-flow: row wrap;
         flex:2 1 auto;
-        gap: 50px;
+        gap: 20px 50px;
     }
 
     .main__product  {
         flex: 3 1 auto;
         width: 350px;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15); /* Agrega una sombra suave a cada tarjeta */
+        border-radius: 15px;
+        padding-bottom: 20px;
 
     }
-
-    /* .main__product img {
-        height: 60%; 
-    } */
-
-
-
 }
