@@ -25,7 +25,7 @@ a   {
     line-height: 1.2;
     font-weight: 850;
     text-align: left;
-    padding-top: 20px;
+    padding-top: 40px;
     padding-left: 20px;
 }
 
@@ -113,7 +113,8 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
 }
 
 .main__us   {
-    background-color: #88BEF5;;
+    background-color: #88BEF5;
+    padding: 40px 0;
 }
 
 .main_img  {
@@ -237,7 +238,7 @@ form label  {
 
 .footer__links  {
     /* display: flex; */
-        padding: 20px 0px;
+        padding: 40px 20px;
 }
 
 .footer__rrss   {
