@@ -148,7 +148,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     max-width: 100%; /* Asegura que las imágenes dentro de las tarjetas no sobrepasen el ancho de la tarjeta */
     height: auto; /* Ajusta automáticamente la altura de las imágenes para que no se deformen */
     border-radius: 10px; /* Agrega una esquina redondeada a cada tarjeta */
-  }
+}
 
 .container_products {
     display: flex; /* Define el contenedor de tarjetas como un flexbox */
@@ -208,9 +208,9 @@ form input, form textarea   {
 }
 
 input, textarea {
-  font-family: inherit;
-  font-size: 100%;
-  cursor: pointer;
+    font-family: inherit;
+    font-size: 100%;
+    cursor: pointer;
 }
 
 input[type=submit]  {
@@ -293,20 +293,20 @@ form label  {
     .main_products  {
         padding: 0 25px;
     }
-    
+
     .main__us    {
         padding: 0 25px;
     }
 
     .main__form-register    {
-            width: 700px;
+        width: 700px;
     }
 
     .main__register-client  {
         padding: 0 25px;
         padding-bottom: 20px;
     }
-    
+
     .footer__nav ul li a {
         font-size:medium;
         cursor: pointer;
@@ -378,6 +378,4 @@ form label  {
         padding-bottom: 20px;
 
     }
-
-
 }
