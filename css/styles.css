@@ -137,7 +137,19 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     /* align-items: center; */
     justify-content: space-between;
     text-align: justify;
-    padding: 15px;
+    /* padding: 15px; */
+}
+
+.main__product img {
+    max-width: 100%; /* Asegura que las imágenes dentro de las tarjetas no sobrepasen el ancho de la tarjeta */
+    height: auto; /* Ajusta automáticamente la altura de las imágenes para que no se deformen */
+  }
+
+.container_products {
+    display: flex; /* Define el contenedor de tarjetas como un flexbox */
+    justify-content: space-between; /* Alinea las tarjetas de forma que se separen entre ellas */
+    flex-wrap: wrap; /* Envuelve las tarjetas si no caben todas en una sola fila */
+    padding: 0 20px;
 }
 
 .fecha-publicacion {
@@ -150,6 +162,7 @@ svg:not(:host).svg-inline--fa, svg:not(:root).svg-inline--fa {
     color:white;
     font-family: inherit;
 }
+
 .main__mail {
     display: flex;
     flex-flow: column;
@@ -333,4 +346,29 @@ form label  {
         font-size: 18px;
         text-align: inherit;
     }
+
+    .main_products  {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .container_products {
+        display: flex;
+        flex-flow: row wrap;
+        flex:2 1 auto;
+        gap: 50px;
+    }
+
+    .main__product  {
+        flex: 1 1 auto;
+        width: 500px;
+
+    }
+
+    .main__product img {
+        /* height: 60%; */
+    }
+
+
+
 }
